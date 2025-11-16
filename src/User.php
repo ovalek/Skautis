@@ -43,7 +43,7 @@ class User
      * @param WsdlManager $wsdlManager
      * @param AdapterInterface|null $session
      */
-    public function __construct(WsdlManager $wsdlManager, AdapterInterface $session = null)
+    public function __construct(WsdlManager $wsdlManager, ?AdapterInterface $session = null)
     {
         $this->wsdlManager = $wsdlManager;
         $this->session = $session;
